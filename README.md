@@ -25,6 +25,7 @@ Here's a breakdown of the key files:
 
 # Security Considerations
 While this project provides a foundation for authentication, it's essential to prioritize security in production environments. 
+
 Here are some improvements to consider:
 
 Password Hashing: The current implementation likely stores passwords in plain text. Enhance security by using a strong password hashing algorithm like bcrypt or Argon2.
@@ -40,9 +41,9 @@ CSRF Protection: Consider adding CSRF (Cross-Site Request Forgery) protection to
 Rate Limiting: Implement rate limiting to prevent brute-force attacks on login attempts.
 
 # Running the Project
-1.Set Up Database: Create a MySQL database and configure connection details in dist/database.php.
+1. Set Up Database: Create a MySQL database and configure connection details in dist/database.php.
 
-2.Create Tables: Use a database management tool to create the users table with the following structure:
+2. Create Tables: Use a database management tool to create the users table with the following structure:
 
 
 CREATE TABLE users (
@@ -52,10 +53,10 @@ CREATE TABLE users (
     password_hash VARCHAR(255) NOT NULL
 );
 
-3.Web Server: Install a web server like Apache or Nginx and configure it to serve the dist directory as the document root.
+3. Web Server: Install a web server like Apache or Nginx and configure it to serve the dist directory as the document root.
 
 
-4.Access the Application: Visit http://localhost/ (or your web server's URL) in your browser.
+4. Access the Application: Visit http://localhost/ (or your web server's URL) in your browser.
 
 # Additional Notes
 This project serves as a basic example for learning purposes.
@@ -63,4 +64,5 @@ This project serves as a basic example for learning purposes.
 Remember to apply the recommended security measures for production environments.
 
 Consider version control systems like Git for project management.
+
 Feel free to customize and extend this project to fit your specific requirements.
