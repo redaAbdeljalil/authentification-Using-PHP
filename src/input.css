@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .card {
+    @apply h-72 w-full overflow-hidden relative rounded-t-md shadow-lg;
+}
+.badge {
+    @apply absolute top-0 text-lg font-semibold bg-black bg-opacity-50 text-yellow-400 py-2 px-3 rounded-full m-2;
+}
+.card .title {
+    @apply absolute bottom-0 bg-gray-700 bg-opacity-50 w-full py-1 px-2;
+}
+.btn {
+    @apply cursor-pointer border-primary border-2 py-2 px-3 rounded-sm;
+} */

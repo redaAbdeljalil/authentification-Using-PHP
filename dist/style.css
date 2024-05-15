@@ -1,0 +1,24 @@
+.card {
+    width: 400px;
+    height: 500px;
+}
+.card2 {
+    height: 450px;
+}
+form input::placeholder {
+    color: white;
+}
+form .my-text {
+    position: relative;
+    left: -120px;
+}
+form .link-txt {
+    position: relative;
+    left: 95px;
+}
+ .c-txt {
+    color: rgb(166, 166, 166);
+}
+.icons {
+    gap: 40px;
+}
