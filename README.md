@@ -13,7 +13,9 @@ Database: MySQL
 Frontend: Tailwind CSS (for styling)
 
 # Project Structure
-The project code resides within the dist folder. Here's a breakdown of the key files:
+The project code resides within the dist folder. 
+Here's a breakdown of the key files:
+
 (dist/): This folder contains all the project's code.
 (dist/index.php): The main entry point for the application.
 
