@@ -26,6 +26,7 @@ Here's a breakdown of the key files:
 # Security Considerations
 While this project provides a foundation for authentication, it's essential to prioritize security in production environments. 
 Here are some improvements to consider:
+
 Password Hashing: The current implementation likely stores passwords in plain text. Enhance security by using a strong password hashing algorithm like bcrypt or Argon2.
 
 Prepared Statements: Prevent SQL injection vulnerabilities by using prepared statements to sanitize user input before database interactions.
@@ -43,7 +44,7 @@ Rate Limiting: Implement rate limiting to prevent brute-force attacks on login a
 
 2.Create Tables: Use a database management tool to create the users table with the following structure:
 
-SQL
+
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL UNIQUE,
